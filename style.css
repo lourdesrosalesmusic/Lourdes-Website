@@ -1,0 +1,24 @@
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+ }
+
+#bio_jumbotron {
+  background: url('./resources/main.JPG') no-repeat center center fixed;
+  background-size: cover !important;
+}
+
+.row {
+  margin-top: 15px;
+}
+
+
+
