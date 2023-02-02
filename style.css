@@ -21,8 +21,36 @@ body {
 .row {
   margin-top: 15px;
 }
+.nav-link {
+  color: white !important;
+}
 
 .nav-link:hover {
 	color:#75002f !important;
+}
+
+.fit-logo-icon{
+	border-radius: 50%;
+	height: 100%;
+}
+
+.bg-dark{
+  background-color: #080808 !important;
+}
+
+
+/* footer */
+hr {
+  color:  #75002f;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.jumbotron{
+  height: 20em;
+}
+
+.red-hover :hover {
+  background-color: #75002f;
 }
 

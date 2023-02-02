@@ -49,3 +49,22 @@ h1, h2, h3 {
 .granite-red {
   background-color: #75002f;
 }
+
+
+.fit-logo-icon{
+	border-radius: 50%;
+	height: 100%;
+}
+
+
+.btn-danger {
+  color: #fff;
+  background-color: #75002f !important;
+  border-color: #75002f; /*set the color you want here*/
+  box-shadow: 1px #530122 !important;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #530122 !important;
+  border-color: #530122 !important; /*set the color you want here*/
+}

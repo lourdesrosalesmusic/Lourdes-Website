@@ -2,13 +2,25 @@ body{
 	
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+ }
+ 
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+}
 .container{
-	/* background: #fff; */
-	margin-top: 50px;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px !important;
 
 }
-
 
 #contact_img{
 	width: 100%;
@@ -35,22 +47,29 @@ body{
 .form-control{
 	border: none; /*1px solid #f4f4f4;*/
 	border-radius: 20px;
-	background: rgba(165, 147, 69, 0.075);/*#f4f4f4;*/
+	background: rgba(236, 209, 207, 0.075);
 	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
 }
-.btn{
+/* .btn{
 	width: 100%;
 	font-size: 12px;
 	margin-top: 10px;
-   
+	box-shadow: none;
     text-align: center;
     border-radius: 5px;
+} */
+
+.btn {
+	box-shadow: none;
 }
+
+
+
 .form-control:focus {
     color: #495057;
     border-color: #fff !important;
     outline: 0;
-    box-shadow: 0 1px 1px 1px #75002f !important;
+    box-shadow: 0 1px 1px 1px #75002f ;
 }
 
 /* .navbar {
@@ -61,6 +80,24 @@ body{
 .nav-link:hover {
 	color:#75002f !important;
   }
+
+.margin-top-50 {
+	margin-top: 80px;
+}
+
+
+.bg-dark {
+	background-color: #080808 !important;
+  }
+
+  .fit-logo-icon{
+	border-radius: 50%;
+	height: 100%;
+}
+  
+.granite-red {
+	color:#75002f !important;
+}
 
 
 
