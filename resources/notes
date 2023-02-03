@@ -10,42 +10,61 @@ icons:
 color of nav link items white or gray like the ones on contact?
 
 
+Fix contact page in the phone view. 
+
+
 Navbar: 
-     <!-- Navbar   navbar-light bg-light-->
-        <nav class="navbar navbar-expand-md "> 
-            <a class="navbar-brand" href="#">
-                <img src="./resources/icon.jpg" width="30" height="30" alt="">
-              </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">  
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li> -->
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="main.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="bio.html">Bio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="multimedia.html">Multimedia</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="https://www.scifiensemble.com/" target="_blank"> Scifi-Ensemble</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
     
-            </div>
-        </nav>
-        <!-- Navbar -->
+    <!-- Navbar -->
+    <header >
+      <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#000000;">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+      
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="index.html">Brand</a>
+      
+          <!-- Toggle button -->
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+              <!-- Link -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+      
+            </ul>
+      
+            <!-- Icons d-flex flex-row me-1 -->
+            <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="bio.html">bio</i></a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="multimedia.html">multimedia</i></a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="www.scifiensemble" target="_blank"> Scifi-Ensemble</i></a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="contact.html">contact</i></a>
+              </li>
+              
+            </ul>
+      
+          </div>
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+    </header>
+      <!-- Navbar -->    
+   
+   
       
 footer:
 
