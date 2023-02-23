@@ -26,7 +26,7 @@ body {
 }
 
 .nav-link:hover {
-	color:#75002f !important;
+	color:#75012E !important;
 }
 
 .fit-logo-icon{
@@ -41,7 +41,7 @@ body {
 
 /* footer */
 hr {
-  color:  #75002f;
+  color:  #75012E;
   border: 1px solid red;
   margin: auto;
 }

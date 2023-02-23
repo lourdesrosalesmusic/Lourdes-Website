@@ -29,6 +29,11 @@ body {
 	border-radius: 10px;
 }
 
+#bio_jumbotron {
+	background: url('./resources/main.JPG') no-repeat center center fixed;
+	background-size: cover !important;
+  }
+
 .text-muted{
 	font-size: 13px;
 	font-weight: bold;
