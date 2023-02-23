@@ -47,10 +47,10 @@ hr {
 }
 
 .jumbotron{
-  height: 20em;
+  height: 30em;
 }
 
 .red-hover :hover {
-  background-color: #75002f;
+  background-color: #75012E;
 }
 
