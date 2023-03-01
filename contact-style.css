@@ -1,22 +1,7 @@
 body{
-	
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-
-html {
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    padding: 0;
- }
- 
-body {
-  margin: 0px;
-  min-height: 100%;
-  width: 100%;
-  padding: 0;
-}
 .container{
 	padding: 20px 20px 20px 20px !important;
 
@@ -29,18 +14,7 @@ body {
 	border-radius: 10px;
 } */
 
-#bio_jumbotron {
-	background: url('./resources/main.JPG') no-repeat center center fixed;
-	background-size: cover !important;
-  }
-.jumbotron{
-	height: 30em;
-}
-  
-.text-muted{
-	font-size: 13px;
-	font-weight: bold;
-}
+
 
 .form-title{
 	font-weight: bold;
@@ -58,20 +32,10 @@ body {
 	background: rgba(236, 209, 207, 0.075);
 	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
 }
-/* .btn{
-	width: 100%;
-	font-size: 12px;
-	margin-top: 10px;
-	box-shadow: none;
-    text-align: center;
-    border-radius: 5px;
-} */
 
 .btn {
 	box-shadow: none;
 }
-
-
 
 .form-control:focus {
     color: #495057;
@@ -80,34 +44,7 @@ body {
     box-shadow: 0 1px 1px 1px #75012E ;
 }
 
-/* .navbar {
-	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.25);
-} */
-
-
-.nav-link:hover {
-	color:#75012E !important;
-  }
-
-.margin-top-50 {
-	margin-top: 80px;
-}
-
 
 .bg-dark {
 	background-color: #080808 !important;
-  }
-
-  .fit-logo-icon{
-	border-radius: 50%;
-	height: 100%;
 }
-  
-.granite-red {
-	color:#75012E !important;
-}
-
-
-
-
-

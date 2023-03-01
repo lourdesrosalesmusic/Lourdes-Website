@@ -1,4 +1,3 @@
-
 html {
     margin: 0px;
     height: 100%;
@@ -13,15 +12,36 @@ body {
   padding: 0;
 }
 
-#bio_jumbotron {
-  background: url('./resources/main.JPG') no-repeat center center fixed;
-  background-size: cover !important;
+.bg-dark{
+  background-color: #080808 !important;
 }
+
+.granite-red {
+  background-color: #75002f;
+}
+
+.red-hover :hover {
+  background-color: #75012E;
+}
+
+
+hr {
+  color:  #75012E;
+  border: 2px solid #75012E;
+  margin: auto;
+}
+
 
 .row {
   margin-top: 15px;
 }
+
+.title-font{
+  font-family: 'Abril Fatface', cursive !important;
+}
+
 .nav-link {
+  font-size: 1.1em;
   color: white !important;
 }
 
@@ -34,23 +54,30 @@ body {
 	height: 100%;
 }
 
-.bg-dark{
-  background-color: #080808 !important;
-}
 
-
-/* footer */
-hr {
-  color:  #75012E;
-  border: 2px solid #75012E;
-  margin: auto;
+#bio_jumbotron {
+  background: url('./resources/main.JPG') no-repeat center center fixed;
+  background-size: cover !important;
 }
 
 .jumbotron{
   height: 30em;
 }
 
-.red-hover :hover {
-  background-color: #75012E;
-}
+
+
+.btn-danger {
+	color: #fff;
+	background-color: #75002f !important;
+	border-color: #75002f; /*set the color you want here*/
+	/* box-shadow: 1px #530122 !important; */
+  }
+  .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+	color: #fff;
+	background-color: #530122 !important;
+	border-color: #530122 !important; /*set the color you want here*/
+  }
+
+
+
 
