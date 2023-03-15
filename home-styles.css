@@ -73,8 +73,9 @@ body {
 
 /* 
 smart-phones: very high dpi, small screen
+and (max-width: 900px)
  */
-@media handheld and (min-resolution: 250dpi){
+@media screen  and (min-resolution: 300dpi){
   html{
     overflow: visible;
   }
@@ -139,6 +140,8 @@ laptop displays: large size high dpi
     margin-top: -10vh;
   }  
 }
+
+
 
 
 #logo-img{
