@@ -74,12 +74,12 @@ body {
 /* 
 smart-phones: very high dpi, small screen
  */
-@media handheld and (max-height: 1500) and (min-resolution: 250dpi){
+@media handheld and (max-height: 1500) and (min-resolution: 230dpi){
   #index-jumbotron{
-    margin-top: 30vh;
+    margin-top: 25vh;
   }
   #index-footer {
-    margin-top: 0vh;
+    margin-top: -2vh;
   } 
 }
 
