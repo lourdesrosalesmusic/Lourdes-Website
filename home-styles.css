@@ -59,6 +59,16 @@ body {
 
 
 /* 
+ small screens phone high dpi 
+*/
+#index-jumbotron{
+  margin-top: 40vh;
+}
+#index-footer {
+  margin-top: -15vh;
+} 
+
+/* 
 bigger screens have lower dpi  */
 
 /* 
@@ -82,14 +92,12 @@ bigger screens have lower dpi  */
   and (max-height: 949px) 
   and (min-resolution: 250dpi){
   #index-jumbotron{
-    margin-top: 40vh;
+    margin-top: 58vh;
   }
   #index-footer {
     margin-top: -10vh;
   }  
 }
-
-
 
 /* 
 laptop displays: mid-size low dpi
@@ -105,21 +113,6 @@ laptop displays: mid-size low dpi
     margin-top: -10vh;
   }  
 }
-
-/* 
-small screens high dpi 
-*/
-@media screen and (max-width: 2000px) and (min-resolution: 350dpi) {
-
-  #index-jumbotron{
-    margin-top: 10vh;
-  }
-  #index-footer {
-    margin-top: 0vh;
-  } 
-}
-
-
 
 
 #logo-img{
