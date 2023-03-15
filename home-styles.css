@@ -74,7 +74,7 @@ body {
 /* 
 smart-phones: very high dpi, small screen
  */
-@media handheld and (max-height: 1500) and (min-resolution: 230dpi){
+@media screen and (max-height: 1500) and (min-resolution: 230dpi){
   html{
     overflow: visible;
   }
