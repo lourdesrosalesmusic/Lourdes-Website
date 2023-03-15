@@ -62,14 +62,22 @@ body {
  small screens phone high dpi 
 */
 @media screen 
-and (max-height: 1800px) 
+and (max-width: 1800px) 
 and (min-resolution: 300dpi){
+  
   #index-jumbotron{
-    margin-top: 40vh;
+    margin-top: 35vh;
   }
   #index-footer {
     margin-top: -15vh;
   } 
+
+  body {
+    overflow: visible;
+  }
+  html {
+    overflow: visible;
+  }
 
 }
 
