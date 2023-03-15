@@ -54,15 +54,39 @@ hr {
 	height: 100%;
 }
 
+/* 
+navbar-expand-sm = mobile menu on xs screens <576px
+navbar-expand-md = mobile menu on sm screens <768px
+navbar-expand-lg = mobile menu on md screens <992px
+navbar-expand-xl = mobile menu on lg screens <1200px
+navbar-expand = never use mobile menu
+(no expand class) = always use mobile menu 
+*/
+
+/* Navigation bar <ul> alignment */
+.margin-right{
+  margin-right: auto;
+}
+
+@media screen and (min-width: 992px){
+  .margin-right{
+    margin-right: 48%;
+  }
+}
+/* Navigation bar <ul> alignment */
 
 #bio_jumbotron {
   background: url('./resources/main.JPG') no-repeat center center fixed;
   background-size: cover !important;
 }
 
+
+
 .jumbotron{
   height: 30em;
 }
+
+
 
 
 

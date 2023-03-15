@@ -1,54 +1,120 @@
-body {
-    margin: 0px;
-    min-height: 100%;
-    width: 100%;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.35), 
-      rgba(0, 0, 0, 0.35)
-    ), 
-    url('./resources/main.JPG') no-repeat center center fixed;
-    background-size: cover;
-   
- }
+/* 
+overflow: hidden; do not remove
 
- 
+no scroll: use for adjusting the position of jumbotron and footer with vh without adding
+to the page */
+html {
+  overflow: hidden; 
+
+}
+
+body {
+  overflow: hidden;
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)),
+    url('./resources/main.JPG') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+
 
 
 .fronter {
-    background:transparent;
-    background-size: cover !important;
-    width:100%; 
-    border-radius: 0;
+  background: transparent;
+  background-size: cover !important;
+  width: 100%;
+  border-radius: 0;
 }
 
 
 .center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-  }
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
 
 .btn-danger {
   color: #fff;
   background-color: #75002f !important;
-  border-color: #75002f; /*set the color you want here*/
+  border-color: #75002f;
+  /*set the color you want here*/
   box-shadow: 1px #530122 !important;
 }
-.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open>.dropdown-toggle.btn-danger {
   color: #fff;
   background-color: #530122 !important;
-  border-color: #530122 !important; /*set the color you want here*/
+  border-color: #530122 !important;
+  /*set the color you want here*/
 }
 
 
+/* 
+#index-jumbotron {
+  margin-top: clamp(40px, calc(2rem + 40vw), 600px);
+} */
 
-#index-footer{
-  margin-top: 15vh;
+#index-jumbotron{
+  margin-top: 40vh;
+}
+#index-footer {
+  margin-top: -8vh;
 }
 
-@media screen and (min-height:800px ){
-  #index-footer{
-    margin-top: 30vh;
+@media screen and (max-width: 500px) {
+  html{
+    overflow: visible;
   }
+  body{
+    overflow: visible;
+  }
+  #logo-img{
+    height: 100px;
+  } 
+  #index-jumbotron{
+    margin-top: 50px;
+    margin-left: auto;
+  }
+  #index-footer {
+    margin-top: 1vh;
+  }
+
+ 
+  
+  
 }
+
+
+@media screen and (min-height: 980px) {
+  #index-jumbotron{
+    margin-top: 40vh;
+  }
+  #index-footer {
+    margin-top: 1vh;
+  }
+  
+}
+
+@media screen and (min-height: 1244px) {
+  #index-jumbotron{
+    margin-top: 60vh;
+  }
+  #index-footer {
+    margin-top: 1vh;
+  }
+  
+}
+
+#logo-img{
+  max-height: 250px;
+  width: auto;
+} 
