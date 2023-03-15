@@ -63,8 +63,8 @@ body {
   margin-top: clamp(40px, calc(2rem + 40vw), 600px);
 } */
 
-
-/* #index-jumbotron{
+/* 
+#index-jumbotron{
   margin-top: 35vh;
 }
 #index-footer {
@@ -74,7 +74,7 @@ body {
 /* 
 smart-phones: very high dpi, small screen
  */
-@media screen and (min-height: 1080) and (min-resolution: 250dpi){
+@media handheld and (min-resolution: 250dpi){
   html{
     overflow: visible;
   }
@@ -84,7 +84,7 @@ smart-phones: very high dpi, small screen
   }
 
   #index-jumbotron{
-    margin-top: 400vh;
+    margin-top: 30vh;
   }
   #index-footer {
     margin-top: -2vh;
@@ -94,26 +94,52 @@ smart-phones: very high dpi, small screen
 /* 
 laptop displays: low dpi
  */
-@media screen and (min-height: 1080) and (max-resolution: 249dpi){
+@media screen and (min-height: 600px) and (max-resolution: 94dpi){
   #index-jumbotron{
     margin-top: 60vh;
   }
   #index-footer {
-    margin-top: 8vh;
+    margin-top: -6vh;
   } 
 }
 
 /* 
-laptop displays: high dpi
+laptop displays: mid dpi
  */
- /* @media screen and (min-height: 1080) and (min-resolution: 220dpi){
+
+ @media screen and (min-height: 600px) and (max-resolution: 200dpi){
   #index-jumbotron{
     margin-top: 40vh;
   }
   #index-footer {
-    margin-top: 8vh;
-  } 
-} */
+    margin-top: -10vh;
+  }  
+}
+
+/* 
+laptop displays: mid-size high dpi
+ */
+ @media screen and (min-height: 600px) and (max-resolution: 300dpi){
+  #index-jumbotron{
+    margin-top: 40vh;
+  }
+  #index-footer {
+    margin-top: -10vh;
+  }  
+}
+
+/* 
+laptop displays: large size high dpi
+ */
+ @media screen and (min-height: 800px) and (max-resolution: 300dpi){
+  #index-jumbotron{
+    margin-top: 50vh;
+  }
+  #index-footer {
+    margin-top: -10vh;
+  }  
+}
+
 
 #logo-img{
   max-height: 200px;
