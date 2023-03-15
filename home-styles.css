@@ -63,58 +63,50 @@ body {
   margin-top: clamp(40px, calc(2rem + 40vw), 600px);
 } */
 
+
 #index-jumbotron{
   margin-top: 40vh;
 }
 #index-footer {
   margin-top: -8vh;
-}
+} 
 
-@media screen and (max-width: 500px) {
-  html{
-    overflow: visible;
-  }
-  body{
-    overflow: visible;
-  }
-  #logo-img{
-    height: 100px;
-  } 
+/* 
+smart-phones: very high dpi, small screen
+ */
+@media handheld and (max-height: 1500) and (min-resolution: 250dpi){
   #index-jumbotron{
-    margin-top: 50px;
-    margin-left: auto;
+    margin-top: 30vh;
   }
   #index-footer {
-    margin-top: 1vh;
-  }
-
- 
-  
-  
+    margin-top: 0vh;
+  } 
 }
 
-
-@media screen and (min-height: 980px) {
+/* 
+laptop displays: low dpi
+ */
+@media screen and (min-height: 1080) and (max-resolution: 250dpi){
   #index-jumbotron{
     margin-top: 40vh;
   }
   #index-footer {
-    margin-top: 1vh;
-  }
-  
+    margin-top: 8vh;
+  } 
 }
 
-@media screen and (min-height: 1244px) {
+/* 
+laptop displays: high dpi
+ */
+ @media screen and (min-height: 1080) and (min-resolution: 220dpi){
   #index-jumbotron{
-    margin-top: 60vh;
+    margin-top: 40vh;
   }
   #index-footer {
-    margin-top: 1vh;
-  }
-  
+    margin-top: 8vh;
+  } 
 }
 
 #logo-img{
-  max-height: 250px;
-  width: auto;
+  max-height: 200px;
 } 
