@@ -70,7 +70,7 @@ navbar-expand = never use mobile menu
 
 @media screen and (min-width: 992px){
   .margin-right{
-    margin-right: 48%;
+    margin-right:10%;
   }
 }
 /* Navigation bar <ul> alignment */

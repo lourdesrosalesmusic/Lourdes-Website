@@ -57,6 +57,13 @@ body {
   /*set the color you want here*/
 }
 
+#index-jumbotron{
+  margin-top: 40vh;
+}
+#index-footer {
+  margin-top: -10vh;
+}  
+
 
 /* 
  small screens phone high dpi 
@@ -112,10 +119,11 @@ bigger screens have lower dpi  */
   }  
 }
 
+
 /* 
 laptop displays: mid-size low dpi
  */
- @media screen 
+ /* @media screen 
   and (min-height: 600px)
   and (max-height: 949px) 
   and (max-resolution: 249dpi){
@@ -125,7 +133,7 @@ laptop displays: mid-size low dpi
   #index-footer {
     margin-top: -10vh;
   }  
-}
+} */
 
 
 #logo-img{
