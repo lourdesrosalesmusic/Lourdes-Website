@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
 
     <!-- MDB icon -->
-    <link rel="icon" href="img/tab_icon.png" type="image/x-icon" />
+    <link rel="icon" href="img/tab_icon_white.png" type="image/x-icon" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -68,16 +68,16 @@
                 <a class="nav-link text-end" href="https://www.scifiensemble.com/" target="_blank"> Scifi-Ensemble</i></a>
               </li>
               <li class="nav-item me-3 me-lg-0">
-                <a class="nav-link text-end" href="contact.html">Contact</i></a>
+                <a class="nav-link text-end" id="contact" href="contact.html">Contact</i></a>
               </li>
               <ul class="navbar-nav langWrap">
                 <li class="nav-item me-3 me-lg-0" >
-                  <a class="nav-link text-end lang"  language="spanish">s-logo</i></a>
+                  <a class="nav-link text-end lang"  language="spanish"><img src="./img/spain_icon.png" height="20" alt=""> </i></a>
                 </li>
                 <li class="nav-item me-3 me-lg-0 " >
-                  <a class="nav-link text-end lang active " language="english" >e-logo</i></a>
+                  <a class="nav-link text-end lang active " language="english" ><img src="./img/american_icon.png" height="20" alt=""> </i></a>
                 </li>
-            </ul>
+              </ul>
             </ul>
       
           </div>
@@ -110,7 +110,7 @@
                     </div>
 
                     <div class="form-group pl-1" >
-                        <label for="email" id="addressInput">  Address</label>
+                        <label for="email" id="emailInput"> Email</label>
                           <input type="email" class="form-control" id="email" name = "email">
                     </div>
 
@@ -118,10 +118,10 @@
                         <label for="message" id="messageInput">Message</label>
                         <textarea class="form-control" id="message" rows="5" name = "message"></textarea>
                       </div>
-                      <div class="row">    
+                      <div class="row ">    
                         
                           <div class="col-md-3 offset-md-0 ">
-                            <button type="submit" class="btn btn-danger granite-red">Send</button>
+                            <button type="submit" id="sendButton" class="btn btn-danger granite-red">Send</button>
                            
                         </div>
                         

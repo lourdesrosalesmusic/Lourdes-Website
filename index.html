@@ -8,7 +8,7 @@
 
 
   <!-- MDB icon -->
-  <link rel="icon" href="img/tab_icon.jpg" type="image/x-icon" />
+  <link rel="icon" href="img/tab_icon_white.png" type="image/x-icon" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <!-- Google Fonts Roboto -->
@@ -33,7 +33,7 @@
   <title>Lourdes Rosales</title>
 </head>
 
-<body>
+<body page="index">
 
   <!-- Navbar -->
   <header>
@@ -78,8 +78,16 @@
               <a class="nav-link text-end" href="https://www.scifiensemble.com/" target="_blank"> Scifi-Ensemble</i></a>
             </li>
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link text-end" href="contact.html">Contact</i></a>
+              <a class="nav-link text-end" id="contact" href="contact.html">Contact</i></a>
             </li>
+            <ul class="navbar-nav langWrap">
+              <li class="nav-item me-3 me-lg-0" >
+                <a class="nav-link text-end lang"  language="spanish"><img src="./img/spain_icon.png" height="20" alt=""> </i></a>
+              </li>
+              <li class="nav-item me-3 me-lg-0 " >
+                <a class="nav-link text-end lang active " language="english" ><img src="./img/american_icon.png" height="20" alt=""> </i></a>
+              </li>
+            </ul>
 
           </ul>
 
@@ -97,7 +105,7 @@
       <!-- <h1 class="mb-3 title-font">Lourdes Rosales</h1> -->
       <img id="logo-img" src="./img/Lourdes-Rosales-LR-white-nobg.png" alt="">
 
-      <a class="btn btn-danger" href="bio.html" role="button">Explore</a>
+      <a class="btn btn-danger" href="bio.html" role="button" id="explore-btn">Explore</a>
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
@@ -128,6 +136,7 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
+   <script src="./js/translate.js"></script>
 </body>
 
 </html>
