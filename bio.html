@@ -23,13 +23,13 @@
   />
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
-
+  
     
     
     <link rel="stylesheet" href="./style.css">
     <title>Bio</title>
 </head>
-<body class="bg-dark text-light">
+<body class="bg-dark text-light" page="bio">
    
 
     <!-- Navbar -->
@@ -75,6 +75,17 @@
               <li class="nav-item me-3 me-lg-0">
                 <a class="nav-link text-end" href="contact.html">Contact</i></a>
               </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link text-end" href="contact.html">Translate_Test</i></a>
+              </li>
+              <ul class="navbar-nav langWrap">
+                <li class="nav-item me-3 me-lg-0" >
+                  <a class="nav-link text-end lang"  language="spanish">s-logo</i></a>
+                </li>
+                <li class="nav-item me-3 me-lg-0 " >
+                  <a class="nav-link text-end lang active " language="english" >e-logo</i></a>
+                </li>
+            </ul>
               
             </ul>
       
@@ -98,23 +109,18 @@
           <h1 class="text-center"> Bio  </h1>
           <hr>
         </div>
-        <p class="text-secondary text-center col-md-12"> Something that is cool about me about me</p>
+        <p class="text-secondary text-center col-md-12 secondary-text"> Something that is cool about me about me</p>
       </div>
 
-        <div class="row">
+        <div class="row bio-translate-group">
           
-          <p class="text-justify">
+          <p class="text-justify" id="p1">
             Graduated in musical performance at the Royal Conservatoire of Music in Madrid. She began her musical studies under Remei Silvestre Vinaixa's tutelage. Throughout her career, she has received lessons from great teachers such as Alan Kovacs, Thuan Do Minh, Jaime Huertas, Laure Gaudron, Abel and Arnau Tomàs, Helena Poggio and Mikhail Zemtsov.
-          </p>
-          <p class="text-justify">
             After completing her Master's in Spanish Musical Performance in July 2021, she was awarded the United States Presidential Scholarship to pursue further master's studies at New Jersey City University. There she continued her musical studies on multi-style viola and violin, with Martha Mooke and Regina Carter.
           </p>
 
-          <p class="text-justify">
+          <p class="text-justify p2" id="p2">
             She currently resides in the United States and actively collaborates with multiple groups such as the Swing Machine Orchestra, the Film Symphony Orchestra, the Spanish Philharmonic Orchestra, and the Madrid Philharmonic Orchestra.
-          </p>
-          
-          <p class="text-justify">
             In the world of modern music, she has collaborated with artists from the national and international scene such as Blas Cantó, El dúo Dinámico, Destripando la Historia, ELE, IL Divo, Isabel Pantoja, Joan Manuel Serrat, Paloma San Basilio, Pitingo, The American ELO and Yo Soy Raton.
           </p>
         </div>
@@ -223,6 +229,7 @@
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Custom scripts -->
 <script type="text/javascript"></script>
-    
+<script src="./js/translate.js"></script>
 </body>
+
 </html>

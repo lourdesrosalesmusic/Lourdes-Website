@@ -27,7 +27,7 @@
 
     <title>Contact</title>
 </head>
-<body class="bg-dark text-light ">
+<body class="bg-dark text-light " page="contact">
   
     <!-- Navbar -->
     <header >
@@ -70,7 +70,14 @@
               <li class="nav-item me-3 me-lg-0">
                 <a class="nav-link text-end" href="contact.html">Contact</i></a>
               </li>
-              
+              <ul class="navbar-nav langWrap">
+                <li class="nav-item me-3 me-lg-0" >
+                  <a class="nav-link text-end lang"  language="spanish">s-logo</i></a>
+                </li>
+                <li class="nav-item me-3 me-lg-0 " >
+                  <a class="nav-link text-end lang active " language="english" >e-logo</i></a>
+                </li>
+            </ul>
             </ul>
       
           </div>
@@ -96,19 +103,19 @@
                 <!-- <p class="justify text-muted text-center"> <a class="granite-red" href="#bookings">Booking?</a> Have an enquiry or would like to give us feedback?<br>Fill out the form below or contact our team <a class="granite-red" -->
                     <!-- > Lourdes@gmail.com</a>  </p>   -->
 
-                <form>
+                <form class="contact-translate-group">
                     <div class="form-group pt-2 pl-1">
-                        <label for="fullName">Your name</label>
+                        <label for="fullName" id="nameInput">Name</label>
                         <input type="text" class="form-control" id="fullName" name="fullName">
                     </div>
 
-                    <div class="form-group pl-1">
-                        <label for="email">Your email address</label>
+                    <div class="form-group pl-1" >
+                        <label for="email" id="addressInput">  Address</label>
                           <input type="email" class="form-control" id="email" name = "email">
                     </div>
 
                     <div class="form-group pl-1">
-                        <label for="message">Your message</label>
+                        <label for="message" id="messageInput">Message</label>
                         <textarea class="form-control" id="message" rows="5" name = "message"></textarea>
                       </div>
                       <div class="row">    
@@ -177,6 +184,6 @@
  <script type="text/javascript" src="js/mdb.min.js"></script>
  <!-- Custom scripts -->
  <script type="text/javascript"></script>
-    
+ <script src="./js/translate.js"></script>
 </body>
 </html>
