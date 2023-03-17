@@ -101,4 +101,33 @@ hr {
 
 
 
+.bg-image {
+  margin-top: 9vh;  
+  background-position: 0px -30vh; 
+}
+
+#multimedia-bg-img{
+  background-position: 0px 0vh ; 
+}
+#bio-bg-img {
+ 
+}
+
+
+@media screen and (max-width: 450px){
+  .bg-image {
+    margin-top: 0vh;  
+    background-position: 0px  -50px; 
+  }
+
+  #multimedia-bg-img{
+    background-position: 0px 5vh ; 
+  }
+  #bio-bg-img {
+    background-position: 0px 5vh ;
+  }
+}
+
+
+
 
