@@ -34,27 +34,13 @@ function addBioTranslate(groupsList, languageToTranslateTo) {
 
 //uses labels
 function addContactTranslate( groupsList, languageToTranslateTo) {
-    groupsList.forEach(el => {
-        el.querySelectorAll('.form-group').forEach( form_group => {
-            let e = form_group.querySelector('label');
-            console.log(e);
-            if (e.id != null){
-                console.log("lang: ", languageToTranslateTo);
-                console.log("page: " , page);
-                console.log("id: ", e.id);
-                e.textContent = data[languageToTranslateTo][page][e.id];
-            }
-        }) 
-    })
-
-    let sendButton = document.querySelector('#sendButton');
-
-    sendButton.textContent = data[languageToTranslateTo][page].sendButton;
     
-    let title = document.querySelector('.form-title');
-    title.textContent = data[languageToTranslateTo][page].title;
-
-    
+    document.querySelectorAll(".text").forEach(cEL => {
+        id = cEL.id
+        if(id != null){
+            cEL.textContent = data[languageToTranslateTo][page][id];
+        }
+    }) 
    
 }
 
@@ -120,10 +106,8 @@ var data = {
 
         "contact" : {
             "title" : "Contact Me",
-            "nameInput" : "Name",
-            "emailInput" : "Email Address",
-            "messageInput" : "Message",
-            "sendButton" : "Send"
+            "p1" : "English Version: Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque.  Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa.  Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus inciduntQuia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt"
+        
         },
         "index" : {
             "exploreButton" : "Explore"
@@ -148,10 +132,7 @@ var data = {
         
         "contact" : {
             "title" : "Contactame",
-            "nameInput" : "Nombre",
-            "emailInput" : "Email",
-            "messageInput" : "Mensaje",
-            "sendButton" : "Enviar"
+            "p1" : "Version en espanol: Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque.  Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa.  Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus inciduntQuia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt"
         },
         "index" : {
             "exploreButton" : "Explorar"
