@@ -131,7 +131,7 @@ var data = {
         },
         
         "contact" : {
-            "title" : "Contactame",
+            "title" : "Contáctame",
             "p1" : "Version en espanol: Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque.  Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa.  Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus inciduntQuia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt"
         },
         "index" : {
