@@ -120,8 +120,8 @@ var data = {
     "spanish" : {
         "bio" : {
             "introText": "spanish",
-            "p1" : "spanish paragraph", 
-            "p2" : "",
+            "p1" : "Graduada en Interpretación Musical por el Real Conservatorio Superior de Música de Madrid. Inició sus estudios de música bajo la tutela de Remei Silvestre Vinaixa. A lo largo de su carrera ha recibido clases de grandes maestros como Alan Kovacs, Thuan Do Minh, Jaime Huertas, Laure Gaudron, Abel y Arnau Tomàs, Helena Poggio y Mikhail Zemtsov.", 
+            "p2" : "Tras finalizar el Máster en Enseñanzas Artísticas en Interpretación e Investigación Performativa de Música Española, en julio de 2021, es premiada con la beca Presidencial de Estados Unidos para comenzar otros estudios de máster en la Universidad de la ciudad de New Jersey. Allí proseguirá con sus estudios de Viola y Violín multiestilo con Martha Mooke y Regina Carter.",
             "p3" : "",
             "p4" : "",
             "pressRelease" : "Communicado de Prensa"
