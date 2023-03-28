@@ -106,7 +106,7 @@ var data = {
 
         "contact" : {
             "title" : "Contact Me",
-            "p1" : "English Version: Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque.  Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa.  Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt Quia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus inciduntQuia nihil sit facere aut in. Voluptatem et cumque maxime quos cumque. Voluptas maxime voluptas aut laborum ratione facere sunt. Id corporis dolorem ut culpa. Neque molestias modi et officia odio. Necessitatibus et omnis ad eligendi non minus incidunt"
+            "p1" : "If you have clicked in this link is because you want to contac me. If you want to know a little bit more about me or my availability feel free to reach me out at this email.",
         
         },
         "index" : {
@@ -132,7 +132,7 @@ var data = {
         
         "contact" : {
             "title" : "Contáctame",
-            "p1" : "Si has hecho click en esta pestaña es porque quieres ponerte en contacto conmigo. Así que si tienes preguntas, quieres saber un poquito más sobre mí o quieres contar conmigo para algún evento, no dudes en escribirme al siguiente email. Estaré encantada de atender tu consulta.  "
+            "p1" : "Si has hecho click en esta pestaña es porque quieres ponerte en contacto conmigo. Así que si tienes preguntas, quieres saber un poquito más sobre mí o quieres contar conmigo para algún evento, no dudes en escribirme al siguiente email. Estaré encantada de atender tu consulta.",
         },
         "index" : {
             "exploreButton" : "Explorar"
